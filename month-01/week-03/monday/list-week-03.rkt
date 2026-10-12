@@ -80,6 +80,7 @@ scores
 
 
 (define subject (cons "math" (cons "physics" (cons "programmming" (cons "english" empty)))))
-(define (second-subject x)
-  (first (rest x)))
+(define (second-subject list)
+  (first (rest list)))  
+(check-expect (second-subject (cons "math" (cons "physics" empty))) "physics")
   
