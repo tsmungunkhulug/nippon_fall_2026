@@ -77,5 +77,30 @@
                        (rectangle 120 70 "outline" "red")))
 
 
+;; 1
+(define (final-score1 s)
+  (+ (* 0.6 (student-project s))
+     (* 0.4 (student-quiz s))))
+(check-expect (final-score1 aki) 86)
+
+;; 2
+(define (passing? s)
+  (>= (final-score s) 60))
+(check-expect (passing? sora) #true)
+
+;; 3
+(define (add-bonus1 s b)
+  (make-student (student-name s)
+                (student-quiz s)
+                (min 100 (+ (student-project s) b))))
+(check-expect (add-bonus1 aki 5) (make-student "Aki" 80 95))
+
+;; 4
+(define (student-grade1 s)
+  (student-grade s))
+(check-expect (student-grade1 aki) "B")
+
+
+
 
 
