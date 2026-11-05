@@ -26,6 +26,42 @@ int find_index(int a[], int n, int key) {
     return 0; 
 }
 
+int count_passing(int a[], int n) {
+    int cnt = 0;
+    for (int i = 0; i < n; i++) {
+        if (a[i] >= 60) {
+            cnt = cnt + 1;
+        }
+    }
+    return cnt ;
+}
+
+int count_failing(int a[], int n) {
+    int cnt = 0;
+    for (int i = 0; i < n; i++) {
+        if (a[i] < 60) {
+            cnt = cnt + 1;
+        }
+    }
+    return cnt ;
+}
+
+void print_bar(int n) {
+    for (int i = 1; i <= n; i++) {
+        printf("*");
+    }
+    printf("\n");
+}
+
+void print_bars(int a[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%3d ", a[i]);
+        print_bar(a[i] / 10);
+    }
+}
+
+
+
 int main(void) {
     int scores[5] = {70,82,95,63,88};
     int mixed[5] = {40,60,72,58,100};
@@ -75,5 +111,14 @@ int main(void) {
     printf("%f\n", average1);
     check_int(find_index(scores, 5, 95), 2);
     check_int(find_index(scores, 5, 50), 0);
+
+    printf("passing students\n");
+
+    check_int(count_passing(scores, 5), 5);
+
+    printf("failing students\n");
+    check_int(count_failing(mixed, 5), 2);
+
+    print_bars(scores, 5);
 
 }
