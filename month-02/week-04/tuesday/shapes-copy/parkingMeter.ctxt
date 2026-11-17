@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=parkingMeter
+comment0.text=\n\ Write\ a\ description\ of\ class\ parkingMeter\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ insertQuarter()
+comment2.params=
+comment2.target=void\ insertDollar()
+comment3.params=minutesPassed
+comment3.target=void\ waitTime(int)
+comment4.params=
+comment4.target=double\ getHoursRemaining()
+numComments=5

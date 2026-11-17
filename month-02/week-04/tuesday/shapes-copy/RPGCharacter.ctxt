@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RPGCharacter
+comment0.text=\n\ Write\ a\ description\ of\ class\ RPGCharacter\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=dmg
+comment1.target=void\ receiveDamage(int)
+comment2.params=enemy
+comment2.target=void\ attack(RPGCharacter)
+comment3.params=
+comment3.target=void\ castHeal()
+numComments=4

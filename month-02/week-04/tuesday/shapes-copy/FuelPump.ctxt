@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FuelPump
+comment0.text=\n\ Write\ a\ description\ of\ class\ FuelPump\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=liters
+comment1.target=double\ pumpFuel(double)
+comment2.params=
+comment2.target=double\ getTotalCost()
+comment3.params=
+comment3.target=double\ resetPump()
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=bankAccount
+comment0.text=\n\ Write\ a\ description\ of\ class\ bankAccount\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=amount
+comment1.target=void\ deposit(double)
+comment2.params=epin\ amount
+comment2.target=void\ withdraw(int,\ double)
+comment3.params=masterCode
+comment3.target=void\ unlockAccount(int)
+numComments=4

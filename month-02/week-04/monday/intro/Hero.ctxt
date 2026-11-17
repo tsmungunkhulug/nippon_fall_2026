@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Hero
+comment0.text=\n\ Write\ a\ description\ of\ class\ hero\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n\ \n
+comment1.params=HeroName
+comment1.target=Hero(java.lang.String)
+comment2.params=
+comment2.target=Hero()
+comment3.params=amount
+comment3.target=void\ findGold(int)
+comment4.params=damage
+comment4.target=void\ takeDamage(int)
+comment5.params=
+comment5.target=void\ drinkPotion()
+numComments=6

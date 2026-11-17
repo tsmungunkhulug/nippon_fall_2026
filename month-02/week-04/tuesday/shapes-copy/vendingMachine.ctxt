@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=vendingMachine
+comment0.text=\n\ Write\ a\ description\ of\ class\ vendingMachine\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=amount
+comment1.target=void\ insertMoney(double)
+comment2.params=
+comment2.target=double\ buyItem()
+comment3.params=
+comment3.target=double\ cancelAndRefund()
+numComments=4
