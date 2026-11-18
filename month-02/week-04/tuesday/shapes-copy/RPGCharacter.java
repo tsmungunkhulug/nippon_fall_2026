@@ -17,14 +17,13 @@ public class RPGCharacter
     public void receiveDamage(int dmg){
         if(!isAlive) {
             System.out.println(name + " is already defeated");
+            return;
         }
-        else if(isAlive = true){
-            hp = hp - dmg;
-            if(hp <= 0) {
-                hp = 0;
-                isAlive = false;
-                System.out.println(name + " has fallen in battle");
-            }
+        hp = hp - dmg;
+        if(hp <= 0) {
+            hp = 0;
+            isAlive = false;
+            System.out.println(name + " has fallen in battle");
         }
         else {
             System.out.println(name + " took " + dmg + " dmg! hp left: " + hp);
@@ -36,11 +35,12 @@ public class RPGCharacter
         dmg = 15 + level * 3;
         if(!isAlive){
             System.out.println(name + " cannot attack while defeated!");
+            return;
         }
         attackCount = attackCount + 1; 
-        if (attackCount == 3) {
-            attackCount = 0;
+        if (attackCount % 3 == 0) {
             dmg = dmg * 2;
+            System.out.println("CRITICAL HIT!");
         }
         enemy.receiveDamage(dmg);
     }
@@ -54,7 +54,7 @@ public class RPGCharacter
             System.out.println(name + " healed! HP: " + hp + "Mana: " + mana);
         }
         else {
-            System.out.println("Cannot heal(Dead or not enough mana)");
+            System.out.println("Cannot heal (Dead or not enough mana)");
         }
     }
 }

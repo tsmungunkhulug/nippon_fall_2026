@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=smartThermostat
+comment0.text=\n\ Write\ a\ description\ of\ class\ smartThermostat\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ toggleEcoMode()
+comment2.params=newTarget
+comment2.target=void\ newTarget(double)
+comment3.params=
+comment3.target=java.lang.String\ runCycle()
+comment4.params=ratePerKwh
+comment4.target=double\ getElectricBill(double)
+numComments=5

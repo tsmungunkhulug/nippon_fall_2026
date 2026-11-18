@@ -47,4 +47,3 @@ void checkString(const char actual[], const char expected[])
         printf("FAIL: \"%s\" гарсан, \"%s\" байх ёстой\n", actual, expected);
     }
 }
-

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=rideShareTrip
+comment0.text=\n\ Write\ a\ description\ of\ class\ rideShareTrip\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=code
+comment1.target=void\ applyPromoCode(java.lang.String)
+comment2.params=
+comment2.target=void\ startTrip()
+comment3.params=Km
+comment3.target=double\ driveDistance(double)
+numComments=4
