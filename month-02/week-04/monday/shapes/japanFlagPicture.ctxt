@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=japanFlagPicture
+comment0.text=\n\ Write\ a\ description\ of\ class\ japanFlagPicture\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=japanFlagPicture()
+comment2.params=
+comment2.target=void\ draw()
+numComments=3
