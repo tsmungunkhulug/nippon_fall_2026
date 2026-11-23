@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LightBulbTest
+comment0.text=\n\ The\ test\ class\ LightBulbTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ lightBulbOn()
+comment2.params=
+comment2.target=void\ lightBulbOff()
+numComments=3

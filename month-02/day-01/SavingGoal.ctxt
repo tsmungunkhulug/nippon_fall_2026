@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SavingGoal
+comment0.text=\n\ Write\ a\ description\ of\ class\ SavingGoal\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=target
+comment1.target=void\ savingGoals(int)
+comment2.params=
+comment2.target=int\ getSavedAmount()
+comment3.params=amount
+comment3.target=void\ save(int)
+comment4.params=
+comment4.target=boolean\ isGoalReached()
+numComments=5
