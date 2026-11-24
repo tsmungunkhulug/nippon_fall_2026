@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=ClockDisplayTest
+comment0.text=\n\ ClockDisplay-\u0438\u0439\u043D\ \u0442\u0435\u0441\u0442.\n
+comment1.params=
+comment1.target=void\ newClockShowsMidnight()
+comment2.params=
+comment2.target=void\ timeIsFormattedWithLeadingZeros()
+comment3.params=
+comment3.target=void\ tickMovesOneMinute()
+comment4.params=
+comment4.target=void\ tickRollsOverToTheNextHour()
+comment5.params=
+comment5.target=void\ tickRollsOverAtMidnight()
+numComments=6

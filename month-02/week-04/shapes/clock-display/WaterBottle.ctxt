@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WaterBottle
+comment0.text=\n\ Write\ a\ description\ of\ class\ WaterBottle\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=capacity
+comment1.target=WaterBottle(int)
+comment2.params=
+comment2.target=int\ getWaterMl()
+comment3.params=amount
+comment3.target=void\ fill(int)
+comment4.params=amount
+comment4.target=void\ drink(int)
+numComments=5

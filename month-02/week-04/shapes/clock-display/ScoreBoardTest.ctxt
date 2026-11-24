@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ScoreBoardTest
+comment0.text=\n\ The\ test\ class\ ScoreBoardTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testInitialScoreAndLevel()
+comment2.params=
+comment2.target=void\ testLevelUpAt100Points()
+comment3.params=
+comment3.target=void\ testNegativePointsIgnored()
+numComments=4

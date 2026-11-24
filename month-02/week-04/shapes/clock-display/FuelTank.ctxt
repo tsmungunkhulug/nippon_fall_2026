@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=FuelTank
+comment0.text=\n\ Write\ a\ description\ of\ class\ FuelTank\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=capacity\ efficiency
+comment1.target=FuelTank(double,\ double)
+comment2.params=
+comment2.target=double\ getLiters()
+comment3.params=addedLiters
+comment3.target=void\ refuel(double)
+comment4.params=distanceKm
+comment4.target=double\ drive(double)
+numComments=5

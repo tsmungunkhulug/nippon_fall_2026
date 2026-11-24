@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Elevator
+comment0.text=\n\ Write\ a\ description\ of\ class\ Elevator\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=topFloor
+comment1.target=Elevator(int)
+comment2.params=
+comment2.target=int\ getCurrentFloor()
+comment3.params=
+comment3.target=boolean\ isDoorOpen()
+comment4.params=
+comment4.target=void\ openDoor()
+comment5.params=
+comment5.target=void\ closeDoor()
+comment6.params=targetFloor
+comment6.target=boolean\ goToFloor(int)
+numComments=7

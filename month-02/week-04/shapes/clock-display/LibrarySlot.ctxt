@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LibrarySlot
+comment0.text=\n\ Write\ a\ description\ of\ class\ LibrarySlot\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=targetBook
+comment1.target=LibrarySlot(Book)
+comment2.params=
+comment2.target=java.lang.String\ getBorrowerName()
+comment3.params=readerName
+comment3.target=boolean\ lendTo(java.lang.String)
+comment4.params=
+comment4.target=void\ returnBook()
+numComments=5
