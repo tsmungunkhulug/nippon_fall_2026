@@ -5,25 +5,24 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Book
-{
+public class Book {
     private String title;
     private boolean borrowed;
-    
-    public Book(String bookTitle){
+
+    public Book(String bookTitle) {
         title = bookTitle;
         borrowed = false;
     }
-    
-    public String getTitle(){
+
+    public String getTitle() {
         return title;
     }
-    
-    public boolean isBorrowed(){
+
+    public boolean isBorrowed() {
         return borrowed;
     }
-    
-    public void setBorrowed(boolean borrowed){
-        borrowed = true;
+
+    public void setBorrowed(boolean borrowed) {
+        this.borrowed = borrowed;
     }
 }

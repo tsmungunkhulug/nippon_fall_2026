@@ -5,33 +5,35 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class LibrarySlot
-{
+/**
+ * Нэг номыг уншигчид олгох, буцаан авах үйлдлийг удирдах класс.
+ */
+public class LibrarySlot {
     private Book book;
     private String borrowerName;
-    
-    public LibrarySlot(Book targetBook){
+
+    public LibrarySlot(Book targetBook) {
         book = targetBook;
         borrowerName = "";
     }
-    
-    public String getBorrowerName(){
+
+    public String getBorrowerName() {
         return borrowerName;
     }
-    
-    public boolean lendTo(String readerName){
-        if(book != null && !book.isBorrowed() && !readerName.isEmpty()){
+
+    public boolean lendTo(String readerName) {
+        if (book != null && !book.isBorrowed() && readerName != null ){
             book.setBorrowed(true);
             borrowerName = readerName;
             return true;
         }
-        else{
-            return false;
-        }
+        return false;
     }
-    
-    public void returnBook(){
-        book.setBorrowed(false);
-        borrowerName = "";
+
+    public void returnBook() {
+        if (book != null) {
+            book.setBorrowed(false);
+            borrowerName = "";
+        }
     }
 }

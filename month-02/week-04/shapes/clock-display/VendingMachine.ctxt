@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=VendingMachine
+comment0.text=\n\ Write\ a\ description\ of\ class\ VendingMachine\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=initialStock\ price
+comment1.target=VendingMachine(int,\ double)
+comment2.params=
+comment2.target=int\ getStock()
+comment3.params=
+comment3.target=double\ getInsertedMoney()
+comment4.params=amount
+comment4.target=void\ insertCoin(double)
+comment5.params=
+comment5.target=double\ buyItem()
+numComments=6

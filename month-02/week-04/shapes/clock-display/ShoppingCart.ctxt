@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ShoppingCart
+comment0.text=\n\ Write\ a\ description\ of\ class\ ShoppingCart\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ShoppingCart()
+comment2.params=
+comment2.target=int\ getItemCount()
+comment3.params=p
+comment3.target=boolean\ addProduct(Product)
+comment4.params=
+comment4.target=double\ getTotalPrice()
+numComments=5

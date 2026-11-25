@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=VendingMachineTest
+comment0.text=\n\ The\ test\ class\ VendingMachineTest.\n\n\ @author\ \ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ testBuyItemAndGetChange()
+comment2.params=
+comment2.target=void\ testInsufficientFundsReturnsMinusOne()
+comment3.params=
+comment3.target=void\ testOutOfStockReturnsMinusOne()
+numComments=4
